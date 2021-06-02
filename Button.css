@@ -1,0 +1,28 @@
+body{
+    background: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: aqua;
+    padding: 20px 80px;
+
+}
+
+button:hover{
+    background: aqua;
+    color: rgb(17, 17, 17);
+    transition: 1.0s;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    border-radius: 50px;
+}
